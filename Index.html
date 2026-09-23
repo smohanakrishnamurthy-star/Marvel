@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohana Krishna Murthy | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#07111f;color:#f5f7fb;line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(1100px,92%);margin:auto}
+nav{position:fixed;top:0;width:100%;z-index:10;background:#07111fcc;backdrop-filter:blur(12px);border-bottom:1px solid #1d3048}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:22px;font-weight:800}.logo span{color:#5eead4}
+.navlinks{display:flex;gap:22px;list-style:none}.navlinks a{color:#a8b5c7}.navlinks a:hover{color:#5eead4}
+.hero{min-height:100vh;display:grid;place-items:center;padding-top:72px}.hero-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:50px;align-items:center}
+.badge{display:inline-block;border:1px solid #1d3048;padding:8px 14px;border-radius:999px;color:#5eead4;margin-bottom:18px}
+h1{font-size:clamp(3rem,7vw,5.8rem);line-height:1.02}h1 span{color:#5eead4}
+.hero p{font-size:1.15rem;color:#a8b5c7;max-width:650px;margin:22px 0 30px}.buttons{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:bold;border:1px solid #1d3048}.primary{background:#5eead4;color:#04201c}
+.avatar{width:280px;height:280px;border-radius:50%;margin:auto;display:grid;place-items:center;background:linear-gradient(135deg,#5eead4,#60a5fa);color:#06121f;font-size:4.5rem;font-weight:900}
+section{padding:100px 0}h2{font-size:2.2rem;margin-bottom:12px}.section-lead{color:#a8b5c7;margin-bottom:30px}
+.card{background:#0d1b2e;border:1px solid #1d3048;border-radius:16px;padding:25px;margin-bottom:18px}.card h3{color:#5eead4;margin-bottom:8px}.card p{color:#a8b5c7}
+.skills{display:flex;flex-wrap:wrap;gap:12px}.skill{padding:10px 15px;border:1px solid #1d3048;border-radius:999px;background:#0d1b2e}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact a{color:#5eead4}
+footer{padding:28px;text-align:center;color:#a8b5c7;border-top:1px solid #1d3048}
+@media(max-width:760px){.navlinks{display:none}.hero-grid,.contact{grid-template-columns:1fr;text-align:center}.avatar{width:210px;height:210px;font-size:3.5rem}.buttons{justify-content:center}}
+</style>
+</head>
+<body>
+<nav><div class="container nav"><a class="logo" href="#home">M<span>KM</span></a>
+<ul class="navlinks"><li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="hero" id="home"><div class="container hero-grid"><div>
+<div class="badge">Welcome to my portfolio</div>
+<h1>Hi, I'm <span>Mohana Krishna</span>.</h1>
+<p>1st Year CSE Student • Future Engineer • Technology Enthusiast.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="#contact">Contact Me</a><a class="btn" href="https://www.instagram.com/Crazy_krish_678" target="_blank">Instagram</a><a class="btn" href="https://github.com/smohanakrishnamurthy-star" target="_blank">GitHub</a></div>
+</div><div class="avatar">MKM</div></div></header>
+
+<section id="about"><div class="container"><h2>About Me</h2><p class="section-lead">A little about who I am.</p><div class="card"><p>I'm Mohana Krishna Murthy, a 1st year CSE student at SRM Valliammai Engineering College with an interest in programming, engineering and technology.</p></div></div></section>
+
+<section id="education"><div class="container"><h2>Education</h2><p class="section-lead">My academic journey.</p><div class="card"><h3>SRM Valliammai Engineering College</h3><p>B.E. Computer Science and Engineering • 1st Year</p></div></div></section>
+
+<section id="skills"><div class="container"><h2>Skills</h2><p class="section-lead">Technologies and abilities I'm developing.</p><div class="skills"><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">Python</span><span class="skill">Problem Solving</span><span class="skill">Communication</span></div></div></section>
+
+<section id="projects"><div class="container"><h2>Projects</h2><p class="section-lead">A place to showcase what I build.</p><div class="card"><h3>Personal Portfolio</h3><p>A responsive personal website built with HTML and CSS.</p></div><div class="card"><h3>Coming Soon</h3><p>More projects will be added as I continue learning.</p></div></div></section>
+
+<section id="contact"><div class="container"><h2>Let's Connect</h2><p class="section-lead">Contact and social links.</p><div class="contact">
+<div class="card"><h3>Email</h3><p><a href="mailto:smohanakrishnamurthy@gmail.com">smohanakrishnamurthy@gmail.com</a></p></div>
+<div class="card"><h3>Social</h3><p><a href="https://www.instagram.com/Crazy_krish_678" target="_blank">@Crazy_krish_678</a><br><a href="https://github.com/smohanakrishnamurthy-star" target="_blank">GitHub: smohanakrishnamurthy-star</a></p></div>
+</div></div></section>
+
+<footer>© 2026 Mohana Krishna Murthy • Built with HTML & CSS</footer>
+</body></html>
